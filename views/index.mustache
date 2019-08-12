@@ -1,0 +1,22 @@
+<html>
+<head></head>
+
+<body>
+    <h1>List of Posts</h1>
+    <a href="add-post"><div>Click here to add a post</div></a>
+    <a href="delete-post"><div>Click here to delete a post</div></a>
+    <a href="edit-post"><div>Click here to edit a post</div></a>
+
+    {{#posts}}
+
+    <h3>{{posttitle}}</h3>
+    <p>Post ID = {{postid}}
+    <span>{{datecreated}}</span> 
+    <p>{{postbody}}</p>
+
+
+    {{/posts}}
+
+</body>
+
+</html>
